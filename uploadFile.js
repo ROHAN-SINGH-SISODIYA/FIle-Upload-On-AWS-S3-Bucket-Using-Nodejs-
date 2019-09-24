@@ -9,7 +9,7 @@ const uploadFile = () => {
   fs.readFile(fileName, (err, data) => {
      if (err) throw err;
      const params = {
-         Bucket: 'testBucket', 
+         Bucket: 'botiqfiles', 
          Key: 'contacts.csv', 
          Body: JSON.stringify(data, null, 2)
      };
