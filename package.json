@@ -9,7 +9,7 @@
   "author": "Rohan Rajput",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.534.0",
+    "aws-sdk": "^2.814.0",
     "fs": "0.0.1-security"
   }
 }
